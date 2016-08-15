@@ -1,0 +1,38 @@
+
+<div class="ToolWindow-MainBody">
+    <table width="360px">
+        <tr class="ToolProperty-Header" >
+            <td onclick="Qva.SelectToolPane(this, false)">
+                Gif Viewer
+            </td>
+            <th onclick="Qva.SelectToolPane(this, true)">
+                <img alt="" src="unpinned.png" icon="web:unpinned" avq="img:.Chart.Title"/>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table width="100%">
+                    <colgroup>
+                        <col width="100px" />
+                        <col width="190px" />
+                        <col width="30px" />
+                    </colgroup>				
+					<tr>
+                      <td class="ToolProperty-Literal">
+                        Value:
+                      </td>
+                      <td colspan="2">
+                        <input style="width: 200px" avq="edit:.Chart.Text.0.Content" />
+                      </td>				  
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="ToolProperty-Header" avq="panel::Layout.qvpp"><td>Layout</td><th></th></tr>
+        <tr style="display: none"><td colspan="2"></td></tr>
+        <tr class="ToolProperty-Header" avq="panel::Caption.qvpp"><td>Caption</td><th></th></tr>
+        <tr style="display: none"><td colspan="2"></td></tr>
+        <tr class="ToolProperty-Header" avq="panel::Access.qvpp"><td>Access</td><th></th></tr>
+        <tr style="display: none"><td colspan="2"></td></tr>
+    </table>
+</div>

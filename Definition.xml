@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ExtensionObject Label="GIF Viewer" Description="Evolcon - GIF Viewer" Path="Evolcon/GifViewer">
+    
+	<Text Initial="" Expression=""/>
+	<Initiate Name="Caption.Text" value="GIF Viewer" />
+	<Initiate Name="Caption.Font.Italic" Value="1" />
+	
+</ExtensionObject>
